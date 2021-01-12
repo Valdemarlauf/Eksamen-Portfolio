@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Eksamen</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="nav">
+        <div id="nav-item-1" class="nav-first">
+            <a href="index.html" aria-current="page" class="home-button"><img alt="homeiconblack" src="images/nav-home-black.svg" class="home-image"></a>
+        </div>
+        <!-- grunden til id er tilføjet, er så jeg kan styre grid-spans. ID'et gør det lettere brugervenligt for mig, som udvikler -->
+        <div id="nav-item-2" class="nav-second">
+            <h2 class="my-name">Valdemar<span class="desktop-only"> Lauf Olsen</span></h2>
+        </div>
+    </div>
+    <div class="portfolio-first-section">
+        <div class="om-left-content">
+            <div class="bio-wrap">
+                <div class="profile-image-wrap"><img alt="ommigfoto" src="images/profile-image.png" class="profile-image">
+                    <h1 id="circletype" class="circletype"> valdemar lauf olsen — digital designer —</h1>
+                </div>
+                <div class="text-wrap">
+                    <h2 class="green-underscore">om mig</h2>
+                    <p class="project-info-text">Jeg hedder Valdemar Lauf Olsen og jeg er 22 år gammel. Jeg er født og opvokset i København med min mor, far og 4 brødre. Jeg er en energisk ung mand med et kæmpe gåpåmod og er altid klar på nye og spændene oplevelser.</p>
+                </div>
+            </div>
+        </div>
+        <div class="om-right-content">
+            <div class="text-wrap">
+                <h2 class="green-underscore">erfaring</h2>
+                <p class="project-info-text">Har arbejdet som grafiker hos restaurantkoncernen Sovino Brands siden januar 2018 hvor jeg siden november 2019 har stået for grafisk content for alle koncernens 15 steder. </p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="text-wrap-right">
+                <h2 class="green-underscore">hvorfor kea?</h2>
+                <p class="project-info-text">Jeg har aldrig været den skarpeste til matematik, dansk osv.
+                    Derfor synes jeg synes grafiskdesign er en fed måde at udtrykke sig på.
+                    Så da jeg hørte om KEA for første gang tænkte jeg det at det var lige mig! Ikke så meget læse, men man for en masse gode værktøjer til at skabe noget specielt og være kreativ.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bruges til at skrive navn og kompetence i en cirkel (bruges kun på om-mig siden) -->
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+    <script>
+        new CircleType(document.getElementById('circletype'));
+
+    </script>
+</body>
+
+</html>

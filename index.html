@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Eksamen</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="nav">
+        <div id="nav-item-1" class="nav-first">
+            <a href="index.html" aria-current="page" class="home-button"><img alt="homeicon" src="images/nav-home-black.svg" class="home-image"></a>
+        </div>
+        <!-- grunden til id er tilføjet, er så jeg kan styre grid-spans. ID'et gør det lettere brugervenligt for mig, som udvikler -->
+        <div id="nav-item-2" class="nav-second">
+            <h2 class="my-name-black-on-phone">Valdemar<span class="desktop-only"> Lauf Olsen</span></h2>
+        </div>
+    </div>
+    <div class="first-section">
+        <a id="main-section" href="kontakt.html" class="frontpage-link-1">
+            <h1 class="main-h1">kontakt</h1><img alt="05-figur" src="images/kontakt-graphic-2.svg" class="background-image-2"><img alt="05figur2" src="images/kontakt-graphic-1.svg" class="background-image-1">
+            <div class="background-image"></div>
+        </a>
+        <a id="portfolio-link" href="portfolio.html" class="frontpage-link-2">
+            <h1 class="main-h1">portfolio</h1><img alt="02background" src="images/02-bg.png" sizes="(max-width: 479px) 100vw, 33vw" srcset="images/02-bg-p-500.png 500w, images/02-bg-p-800.png 800w, images/02-bg.png 953w" class="background-image"><img alt="planet" src="images/portfolio-circle.svg" class="top-left-image"><img alt="rocket" src="images/portfolio-rocket.svg" class="bottom-right-image">
+        </a>
+        <a id="om-mig-link" href="om-mig.html" class="frontpage-link-3">
+            <h1 class="main-h1">om mig</h1><img alt="03background" src="images/om-mig-background.svg" class="background-image"><img alt="tree" src="images/om-mig-tree.svg" class="tree-grow-image"><img alt="cloud" src="images/om-mig-cloud.svg" class="cloud-image">
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+    <script>
+        new CircleType(document.getElementById('circletype'));
+
+    </script>
+</body>
+
+</html>
